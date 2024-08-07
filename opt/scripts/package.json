@@ -1,0 +1,13 @@
+{
+  "name": "@~/scripts",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "bin": "./bin.ts",
+  "files": [],
+  "dependencies": {
+    "@~/config.typescript": "workspace:*",
+    "chalk": "^5.2.0",
+    "prettier": "^3.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "proconnect-kitchen-sink",
+  "private": true,
+  "workspaces": [
+    "opt/**",
+    "packages/*"
+  ],
+  "scripts": {
+    "format": "bun run opt/scripts/format.ts"
+  },
+  "devDependencies": {
+    "@~/scripts": "workspace:*"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
